@@ -8,10 +8,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-public class Bankservice {
+public class BankService {
     private Map<String, Account> accounts;
 
-    public Bankservice() {
+    public BankService() {
         this.accounts = new HashMap<>();
     }
 
