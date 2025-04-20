@@ -10,7 +10,7 @@ public class Account {
 
     public Account(String accountNumber, double initialBalance) {
         this.accountNumber = accountNumber;
-        this.balance = balance;
+        this.balance = initialBalance;
         this.transactions = new ArrayList<>();
         addTransaction(new Transaction("Initial deposit", initialBalance));
 
