@@ -33,7 +33,7 @@ public class Account {
             System.out.println("You don't have enough money on your account");
         }
     }
-    private void addTransaction(Transaction transaction) {
+    protected void addTransaction(Transaction transaction) {
         transactions.add(transaction);
     }
 
